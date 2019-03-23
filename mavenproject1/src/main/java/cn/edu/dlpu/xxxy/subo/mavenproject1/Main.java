@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         String accountID = input("AccountID");
         String password = input("Password");
-        if (("CCB62888".equals(accountID)) && ("123456".equals(password))) {
+        if (("SS".equals(accountID)) && ("123456".equals(password))) {
             System.out.println("Login Success");
             System.out.println(accountID + "账户余额: " + 10086 + "$");
         } else {
